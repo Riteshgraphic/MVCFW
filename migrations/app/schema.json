@@ -1,0 +1,24 @@
+{
+    "users": {
+        "columns": {
+            "id": {
+                "type": "INTEGER",
+                "default": null
+            },
+            "name": {
+                "type": "VARCHAR(255)",
+                "default": null
+            },
+            "password": {
+                "type": "VARCHAR(255)",
+                "default": null
+            },
+            "status": {
+                "type": "VARCHAR(255)",
+                "default": null
+            }
+        },
+        "class": "User",
+        "module": "app.models"
+    }
+}
